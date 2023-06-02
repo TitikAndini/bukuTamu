@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUKU TAMU</title>
+    
+</head>
+<body align="center">
+    <h1>Buku Tamu</h1>
+    Komentar anda dan saran anda sangat kami butuhhkan untuk meningkatkan kualitas pelayanan kami.
+    <hr>
+    <br>
+    <form action="simpan-buku-tamu.php" method="post">
+        <table align="center">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama" required size="28"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="email" name="email" required size="28"></td>
+            </tr>
+            <tr>
+                <td>Komentar</td>
+                <td>:</td>
+                <td><textarea name="komentar" cols="29" rows="10"></textarea></td>
+            </tr>
+        </table>
+            <input type="submit" value="SIMPAN">
+            <input type="reset" value="KOSONGKAN">
+    </form>
+</body>
+</html>
